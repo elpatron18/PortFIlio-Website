@@ -2,6 +2,7 @@
 
 @import "nav.css";
 @import "buttons.css";
+@import "collapsibles.css";
 
 * {
     box-sizing: border-box;

@@ -1,0 +1,32 @@
+.collapsible {
+    cursor: pointer;
+    border: 0;
+
+}
+
+
+
+.active, .collapsible:hover {
+}
+
+.content {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+}
+
+.lol li {
+    list-style-image: url("../images/OneDrive_Folder_Icon.png");
+    list-style-position: inside;
+    padding-inline-start: 1ch;
+}
+
+button {
+    background-color: white;
+}
+
+.lol {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}

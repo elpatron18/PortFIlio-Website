@@ -4,8 +4,10 @@ nav {
     display: grid;
     align-items: center;
 
-    grid-template-columns: auto 1fr 15.5vh 15.5vh 15.5vh ;
+    grid-template-columns: auto 1fr repeat(3, 12vw) ;
     margin: 10px;
+
+    column-gap: 5px;
 }
 
 .line  {
@@ -17,4 +19,8 @@ nav {
 
 #bild {
     margin-right: 10px;
+}
+
+#bild > img:hover {
+    opacity: 80%;
 }
