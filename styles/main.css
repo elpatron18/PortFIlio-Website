@@ -13,3 +13,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.first {
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    column-gap: 2vw;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
