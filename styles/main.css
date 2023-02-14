@@ -14,18 +14,29 @@ body {
     padding: 0;
 }
 
-.first {
-    height: 100%;
-    width: 100%;
-}
-
 .intro {
     display: flex;
     column-gap: 2vw;
     align-items: center;
+    border: aqua 1px solid;
+    height: fit-content;
+}
+.intro .text {
+    width: 30vw;
 }
 
-.wrapper {
+.page {
+   border: pink 1px solid;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
